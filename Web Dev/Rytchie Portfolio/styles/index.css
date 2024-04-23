@@ -33,7 +33,8 @@ body {
 }
 
 .logo::first-letter {
-    font-size: larger;
+    font-size: 50px;
+    color: tomato;
 }
 
 .logo::before {
@@ -64,11 +65,27 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    position: relative;
 }
 
 .navbar a:hover, 
 .navbar a.active {
     color: #00abf0;
+}
+
+.navbar a::after {
+    content: " ";
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%;
 }
 
 .home {
@@ -317,4 +334,18 @@ body {
     100% {
         pointer-events: auto;
     }
+}
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+
+}
+
+/* About */
+
+.about {
+    color: black;
+    width: 80%;
+    margin: 100px auto;
 }
