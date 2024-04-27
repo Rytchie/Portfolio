@@ -148,5 +148,35 @@ nav img {
     font-weight: 600;
 }
 
+/* Media queary for small screen below the width of 600px */
+
+@media (max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+    .images {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
 
 
