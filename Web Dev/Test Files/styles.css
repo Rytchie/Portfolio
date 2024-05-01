@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 20%;
+    background-color: #2196F3;
+    margin: 30vh auto;
+}
+
+.grid-container > div {
+    background-color: rgba(250, 250, 250, 0.7);
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+}
+
+.item-1 {
+    grid-area: 2 / 3 / 2 /3;
+}
