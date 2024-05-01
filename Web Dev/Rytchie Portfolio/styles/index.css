@@ -193,7 +193,11 @@ body {
 .about {
     width: 80%;
     margin: 100px auto;
+<<<<<<< HEAD
     margin-top: 300px;
+=======
+    margin-top: 200px;
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 }
 
 .about .container {
@@ -490,10 +494,13 @@ form input, form textarea {
     border-radius: 6px;
 }
 
+<<<<<<< HEAD
 form input:focus, form textarea:focus {
     box-shadow: 0 0 12px #00abf0;
 }
 
+=======
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 form .btn2 {
     margin-right: 5px;
     padding: 14px 60px;
@@ -524,6 +531,7 @@ header .bx {
 
 @media only screen and (max-width: 600px) {
 
+<<<<<<< HEAD
     .home {
         background: url(../images/bg_mobile_version.jpg);
         background-size: cover;
@@ -536,6 +544,14 @@ header .bx {
         padding-bottom: 5px !important;
     } 
 
+=======
+    .header {
+        background: url(../images/bg_mobile_version.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
     .header .navbar a{
         display: flex;
         flex-direction: column;
@@ -570,6 +586,7 @@ header .bx {
         margin-bottom: 20px;
     }
 
+<<<<<<< HEAD
     /* Home */
 
     .home {
@@ -579,17 +596,35 @@ header .bx {
 
     .home h1 {
         font-size: 50px;
+=======
+    .header bx {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .header .navbar .fa {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
     }
 
     /* ---About Me---- */
 
     .sub-title {
+<<<<<<< HEAD
         font-size: 30px;
     }
 
     .about .container {
         flex: flex;
         flex-direction: column;
+=======
+        font-size: 40px;
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
     }
 
     .about-contents, .about-image {
@@ -597,12 +632,17 @@ header .bx {
     }
 
     .about-image {
+<<<<<<< HEAD
         margin-bottom: 20px;
+=======
+        margin-bottom: 30px;
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
     }
 
     .about-contents {
         font-size: 14px;
     }
+<<<<<<< HEAD
 
     .about-contents p {
         text-align: justify;
@@ -651,6 +691,8 @@ header .bx {
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
+=======
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 }
 
 

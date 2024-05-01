@@ -83,8 +83,11 @@ nav img {
     padding: 15px;
 }
 
+<<<<<<< HEAD
 /* About */
 
+=======
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 .about {
     display: flex;
     width: 80%;
@@ -178,6 +181,7 @@ nav img {
         margin: 10px;
         cursor: pointer;
     }
+<<<<<<< HEAD
 
     .about {
         flex-direction: column;
@@ -188,3 +192,9 @@ nav img {
     }
 }
 
+=======
+}
+
+
+
+>>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
