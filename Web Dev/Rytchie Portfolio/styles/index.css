@@ -154,27 +154,6 @@ body {
     animation-delay: 1.3s;
 }
 
-.home-sci {
-    position: absolute;
-    bottom: 20px;
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.home-sci::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 2.5s;
-    z-index: 2;
-}
-
 /*KEYFRAMES ANIMATIONS*/
 @keyframes showRight {
     100% {
@@ -193,11 +172,6 @@ body {
 .about {
     width: 80%;
     margin: 100px auto;
-<<<<<<< HEAD
-    margin-top: 300px;
-=======
-    margin-top: 200px;
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 }
 
 .about .container {
@@ -211,8 +185,11 @@ body {
 }
 
 .about .container .about-image img {
+    position: relative;
+    top: 10px;
     border-radius: 25px;
     width: 100%;
+    height: 95%;
 }
 
 .about .container .about-contents {
@@ -283,7 +260,7 @@ body {
 /* ------- Services ------- */
 
 #services {
-    margin: 0 100px;
+    margin: 0 40px;
     padding: 30px 0;
 }
 
@@ -339,7 +316,7 @@ body {
 /* portfolio */
 
 #portfolio {
-    margin: 0 100px;
+    margin: 0 40px;
     padding: 30px 0;
 }
 
@@ -429,17 +406,19 @@ body {
 /* Contact */
 
 .contact {
-    margin: 0 100px;
+    margin: 0 40px;
     padding: 30px 0;
 }
 
 .contact .container .row {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.contact-left {
+.contact-left, contact-right {
     flex-basis: 35%;
-    justify-content: baseline;
 }
 
 .contact-right {
@@ -494,13 +473,11 @@ form input, form textarea {
     border-radius: 6px;
 }
 
-<<<<<<< HEAD
 form input:focus, form textarea:focus {
     box-shadow: 0 0 12px #00abf0;
 }
 
-=======
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
+
 form .btn2 {
     margin-right: 5px;
     padding: 14px 60px;
@@ -509,6 +486,8 @@ form .btn2 {
     margin-left: 14px;
     cursor: pointer;
 }
+
+/* Footer */
 
 .footer {
     width: 100%;
@@ -531,27 +510,22 @@ header .bx {
 
 @media only screen and (max-width: 600px) {
 
-<<<<<<< HEAD
     .home {
         background: url(../images/bg_mobile_version.jpg);
         background-size: cover;
         position: relative;
-        top: 50px;
+        min-height: 100vh;
     }
 
     .header {
-        margin-bottom: 20px;
-        padding-bottom: 5px !important;
+        margin-bottom: 5px;
     } 
 
-=======
     .header {
-        background: url(../images/bg_mobile_version.jpg);
         background-size: cover;
         position: relative;
     }
 
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
     .header .navbar a{
         display: flex;
         flex-direction: column;
@@ -586,7 +560,6 @@ header .bx {
         margin-bottom: 20px;
     }
 
-<<<<<<< HEAD
     /* Home */
 
     .home {
@@ -596,53 +569,48 @@ header .bx {
 
     .home h1 {
         font-size: 50px;
-=======
+
     .header bx {
+        position: absolute;
+        top: 2px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .header .navbar a{
+        position: relative;
+    }
+
+    .header .navbar .fa {
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
 
-    .header .navbar .fa {
-        position: absolute;
-        top: 25px;
-        right: 25px;
-        cursor: pointer;
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
-    }
-
     /* ---About Me---- */
-
-    .sub-title {
-<<<<<<< HEAD
-        font-size: 30px;
+    .about {
+        margin-top: 30px;
+        width: 100%;
     }
 
-    .about .container {
+    .about .container, .about {
         flex: flex;
         flex-direction: column;
-=======
-        font-size: 40px;
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
     }
 
     .about-contents, .about-image {
+        display: flex;
         flex-basis: 100%;
     }
 
-    .about-image {
-<<<<<<< HEAD
-        margin-bottom: 20px;
-=======
-        margin-bottom: 30px;
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
+    .about-image img {
+        width: 100%;
     }
 
     .about-contents {
         font-size: 14px;
     }
-<<<<<<< HEAD
 
     .about-contents p {
         text-align: justify;
@@ -684,15 +652,10 @@ header .bx {
     .contact .container .row {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        padding: 0;
+        flex-wrap: nowrap;
     }
-
+    
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
-=======
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 }
-
-

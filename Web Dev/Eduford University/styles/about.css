@@ -11,7 +11,7 @@
 }
 
 .header {
-    min-height: 57vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/background.jpg);
     background-position: center;
@@ -83,11 +83,6 @@ nav img {
     padding: 15px;
 }
 
-<<<<<<< HEAD
-/* About */
-
-=======
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4
 .about {
     display: flex;
     width: 80%;
@@ -143,8 +138,11 @@ nav img {
 .footer {
     width: 100%;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 2%;
+    padding: 10% 0;
+}
+
+.footer p {
+    color: #b2abab;
 }
 
 .footer h4 {
@@ -156,8 +154,13 @@ nav img {
 /* Media queary for small screen below the width of 600px */
 
 @media (max-width: 700px) {
+    .header {
+        min-height: 100vh;
+        text-align: center;
+    }
+
     .text-box h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .nav-links ul li {
@@ -175,26 +178,39 @@ nav img {
         z-index: 2;
     }
 
+    /* About */
+
     .images {
-        display: block;
-        color: #fff;
-        margin: 10px;
-        cursor: pointer;
+        width: 100%;
+        display: flex;
     }
-<<<<<<< HEAD
+
+    .images img {
+        border-radius: 30px;
+        padding: 10px;
+        width: 100%;
+    }
 
     .about {
         flex-direction: column;
     }
 
     .about .text-col {
-        flex-basis: 100%;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .text-col .hero-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer */
+    .footer {
+        margin: 10px;
     }
 }
 
-=======
-}
-
-
-
->>>>>>> acdf63572f293b6e4768f3cc4af97eb40a543ea4

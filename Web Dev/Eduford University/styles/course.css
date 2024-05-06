@@ -6,7 +6,7 @@
 }
 
 .header {
-    min-height: 57vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/background.jpg);
     background-position: center;
@@ -72,6 +72,38 @@ nav img {
 
 .text-box h1 {
     font-size: 62px;
+}
+
+@media (max-width: 700px) {
+    .header {
+        min-height: 100vh;
+    }
+
+    .text-box h1 {
+        font-size: 40px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+    .images {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+    }
 }
 
 /* Courses */
@@ -163,8 +195,7 @@ h3 {
 .footer {
     width: 100%;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 2%;
+    padding: 10% 0;
 }
 
 .footer h4 {

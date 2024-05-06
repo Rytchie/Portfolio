@@ -6,7 +6,7 @@
 }
 
 .header {
-    min-height: 57vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/background.jpg);
     background-position: center;
@@ -77,8 +77,12 @@ nav img {
 /* Media queary for small screen below the width of 600px */
 
 @media (max-width: 700px) {
+    .header {
+        min-height: 100vh;
+    }
+
     .text-box h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .nav-links ul li {
@@ -101,6 +105,16 @@ nav img {
         color: #fff;
         margin: 10px;
         cursor: pointer;
+    }
+
+    /* Contact */
+
+    .container {
+        flex-direction: column;
+    }
+
+    .contact-left .subtitle {
+        font-size: 40px;
     }
 }
 
@@ -131,7 +145,7 @@ nav img {
 }
 
 .contact-left p {
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .contact-left, .contact-right {
@@ -154,14 +168,9 @@ form input, form textarea {
     background: #c1bfbf;
     padding: 15px;
     margin: 20px;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     border-radius: 6px;
-}
-
-form input, form textarea::placeholder {
-    font-weight: 600;
-    color: #f44336;
 }
 
 form .btn {
@@ -177,22 +186,15 @@ form .btn {
     margin-left: 13px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 .footer {
     width: 100%;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 2%;
+    padding: 10% 0;
+}
+
+.footer p {
+    color: #b2abab;
 }
 
 .footer h4 {
