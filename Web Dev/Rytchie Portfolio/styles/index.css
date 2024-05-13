@@ -589,27 +589,14 @@ header .bx {
     }
 
     /* ---About Me---- */
-    .about {
-        margin-top: 30px;
-        width: 100%;
-    }
-
-    .about .container, .about {
-        flex: flex;
+    .about .container {
+        display: flex;
         flex-direction: column;
     }
 
-    .about-contents, .about-image {
-        display: flex;
-        flex-basis: 100%;
-    }
-
-    .about-image img {
-        width: 100%;
-    }
-
-    .about-contents {
-        font-size: 14px;
+    .about-image {
+        display: block;
+        width: 400px;
     }
 
     .about-contents p {
@@ -622,7 +609,6 @@ header .bx {
     }
 
     /* --- Services --- */
-
     .services-list {
         display: flex;
         flex-direction: column;
@@ -631,7 +617,7 @@ header .bx {
     }
 
     .sub-title {
-        font-size: 30px;
+        font-size: 3px;
     }
 
     #services .container {

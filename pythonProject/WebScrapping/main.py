@@ -3,5 +3,4 @@ from bs4 import BeautifulSoup
 with open('practice.html', 'r') as html_file:
     content = html_file.read()
     soup = BeautifulSoup(content, 'lxml')
-    tags = soup.find_all('h1')
-    print(tags)
+    print(soup)
