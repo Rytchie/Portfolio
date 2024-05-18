@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,19 +10,19 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="container">
-            <div class="grid-container">
-                <div class="item-1">1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                <div>7</div>
-            </div>
-        </div>
-        
-        
-        <script src="" async defer></script>
+        <header class="header" id="header">
+            <a href="index.html" class="logo">Rytchie</a>
+            <nav class="navbar" id="sidemenu">
+                <a href="#header" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <i class='bx bx-menu' onclick="closemenu()"></i>
+            </nav>
+            <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+        </header>
     </body>
+    <script src="index.js"></script>
 </html>
