@@ -272,7 +272,8 @@ body {
 }
 
 .services-list div {
-    background: rgba(0, 0, 70, 0.5);
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
     padding: 40px;
     font-weight: 300;
     border-radius: 10px;

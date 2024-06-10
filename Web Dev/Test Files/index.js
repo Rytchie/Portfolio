@@ -1,12 +1,20 @@
-let fruits = ["apple", "orange", "banana", "coconut"];
-// fruits.push("coconut");
-// fruits.pop();
-// fruits.unshift("mango");
-// fruits.shift();
+// Calculator Program
 
-for(let i = fruits.length; i >= 0; i--){
-    console.log(fruits[i]);
+const display = document.getElementById("display");
+
+function appendToDisplay(input){
+  display.value += input; 
 }
 
+function clearDisplay(){
+  display.value = "";
+}
 
-
+function calculate(){
+  try {
+    display.value = eval(display.value);
+  } 
+  catch (error) {
+    display.value = "Syntax Error!";
+  }
+}
