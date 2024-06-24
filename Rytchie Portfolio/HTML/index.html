@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/index.css">
+        <link rel="icon" href="../images/favicon.png">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header" id="header">
+            <a href="index.html" class="logo">Rytchie</a>
+            <nav class="navbar" id="sidemenu">
+                <a href="#header" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <i class='bx bx-menu' onclick="closemenu()"></i>
+            </nav>
+            <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+        </header>
+
+        <!-- Home -->
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, am Rytchie</h1>
+                <h3>Front End Developer</h3>
+            </div> 
+        </section>
+
+        <!-- About -->
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-image" id=#about-image>
+                    <img src="../images/Snapchat.jpg" alt="About Rytchie image">
+                </div>
+                <div class="about-contents">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>👋 Hi, I'm Rytchie, a passionate self-taught frontend developer based in Bahati, Nakuru, Kenya. 
+                    
+                        🌍 My journey into the world of web development began with a strong foundation in Computer Science, 
+                        
+                        and I've continued to expand my skills in Python and C#. 💻 My goal is to bridge the gap between design and functionality,
+                        
+                        crafting seamless and visually appealing user experiences.
+    
+                        🎨 I'm not just a coder, but also a UI/UX enthusiast, with a keen eye for detail. I believe that great design is at the heart
+                        
+                        of every successful web project. 🎯
+                        
+                        🚀 When I'm not coding, I love watching the latest tech trends and movies. I'm always up for a chat about the newest tech
+                        
+                        innovations or sharing insights about the latest blockbusters. 🍿 Let's connect and discuss how we can bring your web 
+                        
+                        projects to life!
+                        
+                        Feel free to reach out for collaborations or a friendly chat about all things tech and development. 
+                        
+                        📧 Let's create something amazing together!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web development</span><br>Web APP Development</li>
+                            <li><span>Python Engineer</span><br>Building Network Systems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li><span>2023</span><br>Computer Applications tutor at Edkam College</li>
+                            <li><span>2024/01 - 2024/03</span><br>Python, Web Development an Computer Applications Tutor at KNLS</li>
+                            <li><span>2024/03 - Current</span><br>UI/UX Designer, Web Developer, Python Engineer and Computer Applications Tutor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Web Developer and Tutor</li>
+                            <li><span>2019 - 2022</span><br>High Student at JM Kariuki Memorial Sec Sch. <br>I got a C-</li>
+                            <li><span>2011 - 2018</span><br>Primary Student at St. Lwanga Primary Sch. <br>I got 278 marks</li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+
+        <!-- Photography -->
+
+        </section class="photography">
+            <div class="container">
+                <div class="photography-image">
+                    <h1 class="sub-title">Photographer</h1>
+                    <img src="../images/photographer.jpg" alt="In action - photogapher">
+                </div>
+
+                <div class="about-image">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illo amet consequatur necessitatibus
+                        alias doloribus fugiat quis eaque natus, quo voluptatibus vel maiores esse, corrupti repellendus
+                        incidunt culpa tempore qui.
+                    </p>
+                </div>
+            </div>
+            
+        <section>
+
+            <!-- .div$*1000{Home} just a test -->
+
+        </section>
+
+        <!-- Services -->
+
+        <div id="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code-alt'></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Quisquam maiores vero inventore
+                            eligendi quasi autem, id beatae s
+                            oluta quas obcaecati atque, eius vitae 
+                            delectus odit adipisci, iure corporis ullam voluptates!
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-python' ></i>
+                        <h2>Python Engineer</h2>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Quisquam maiores vero inventore
+                            eligendi quasi autem, id beatae s
+                            oluta quas obcaecati atque, eius vitae 
+                            delectus odit adipisci, iure corporis ullam voluptates!
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop'></i>
+                        <h2>UI/UX</h2>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Quisquam maiores vero inventore
+                            eligendi quasi autem, id beatae s
+                            oluta quas obcaecati atque, eius vitae 
+                            delectus odit adipisci, iure corporis ullam voluptates!
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio -->
+
+        <div id="portfolio" id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="../images/work-1.jpg" alt="Python Development Program">
+                        <div class="layer">
+                            <h3>Socila Media App</h3>
+                            <p>The app connects you to the talented people
+                                around the world. Download it form playstore.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="../images/work-2.jpg" alt="Web Coding">
+                        <div class="layer">
+                            <h3>Socila Media App</h3>
+                            <p>The app connects you to the talented people
+                                around the world. Download it form playstore.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="../images/work-3.jpg" alt="Mobile App">
+                        <div class="layer">
+                            <h3>Socila Media App</h3>
+                            <p>The app connects you to the talented people
+                                around the world. Download it form playstore.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class='bx bxs-envelope' ></i> rytchie1957@gmail.com </p>
+                        <p><i class='bx bxs-phone' ></i>+254-701-874-835</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/raz.gichuki.773" target="_blank"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://twitter.com/Rytchie101" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                            <a href="https://www.linkedin.com/feed/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                        <a href="../files/resume.pdf" class="btn btn2" download >Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="#">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+            <p>Copyright &copy;  Rytchie. Made with ❤️ <box-icon type='solid' name='heart'></box-icon></p>
+        </div>
+
+        <!-- JavaScript -->
+
+        <script src="../JS/index.js"></script>
+    </body>
+    
+</html>
